@@ -68,10 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				046242132B308A63009A36D8 /* TaskApp.swift */,
-				0475C28E2B30A27D00A47D70 /* ContentView.swift */,
-				0475C28A2B3093FA00A47D70 /* TodoListView.swift */,
-				0475C28C2B309B1F00A47D70 /* CommentsView.swift */,
-				046242292B308BB6009A36D8 /* DirectionsView.swift */,
+				0475C2922B30A8ED00A47D70 /* View */,
 				0462422D2B308BE8009A36D8 /* Enum */,
 				0462422B2B308BCC009A36D8 /* Model */,
 				0462422C2B308BD6009A36D8 /* ViewModel */,
@@ -113,6 +110,17 @@
 				046242212B308B0D009A36D8 /* Direction.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		0475C2922B30A8ED00A47D70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0475C28E2B30A27D00A47D70 /* ContentView.swift */,
+				0475C28A2B3093FA00A47D70 /* TodoListView.swift */,
+				0475C28C2B309B1F00A47D70 /* CommentsView.swift */,
+				046242292B308BB6009A36D8 /* DirectionsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
