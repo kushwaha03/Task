@@ -9,15 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            DirectionsView()
+                .tabItem {
+                    Label("Directions", systemImage: "arrow.up")
+                }
+
+            TodoListView()
+                .tabItem {
+                    Label("Todos", systemImage: "list.bullet")
+                }
+
+            CommentsView()
+                .tabItem {
+                    Label("Comments", systemImage: "text.bubble")
+                }
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
